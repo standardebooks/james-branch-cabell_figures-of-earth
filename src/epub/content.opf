@@ -42,6 +42,9 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85147124</meta>
 		<meta property="se:subject">TAG</meta>
+		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
