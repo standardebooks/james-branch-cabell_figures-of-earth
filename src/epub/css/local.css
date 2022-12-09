@@ -33,11 +33,15 @@ p span.i1{
 section[epub|type~="part"]{
 	break-after: page;
 }
+/* End Part divisions */
 
+/* All dedications */
+section[epub|type~="dedication"],
 section > blockquote[epub|type~="dedication"]{
 	text-align: center;
 }
 
+section[epub|type~="dedication"] > *,
 section > blockquote[epub|type~="dedication"] > *{
 	display: inline-block;
 	margin: auto;
@@ -46,6 +50,7 @@ section > blockquote[epub|type~="dedication"] > *{
 }
 
 @supports(display: flex){
+	section[epub|type~="dedication"],
 	section > blockquote[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
@@ -56,11 +61,12 @@ section > blockquote[epub|type~="dedication"] > *{
 		padding-top: 3em;
 	}
 
+	section[epub|type~="dedication"] > *,
 	section > blockquote[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* End Part divisions */
+/* End All dedications */
 
 /* Explicit */
 #chapter-40 p:last-child{
