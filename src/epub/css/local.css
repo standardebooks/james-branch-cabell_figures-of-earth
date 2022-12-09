@@ -21,4 +21,13 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
-/* End all poems */
+/* End All poems */
+
+/* Explicit */
+#chapter-40 p:last-child{
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+/* End Explicit */
