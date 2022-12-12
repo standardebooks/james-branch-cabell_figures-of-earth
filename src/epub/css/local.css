@@ -29,20 +29,14 @@ p span.i1{
 }
 /* End All poems */
 
-/* Part divisions */
-section[epub|type~="part"]{
-	break-after: page;
-}
-/* End Part divisions */
-
 /* All dedications */
 section[epub|type~="dedication"],
-section > blockquote[epub|type~="dedication"]{
+blockquote[epub|type~="dedication"]{
 	text-align: center;
 }
 
 section[epub|type~="dedication"] > *,
-section > blockquote[epub|type~="dedication"] > *{
+blockquote[epub|type~="dedication"] > *{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
@@ -51,7 +45,7 @@ section > blockquote[epub|type~="dedication"] > *{
 
 @supports(display: flex){
 	section[epub|type~="dedication"],
-	section > blockquote[epub|type~="dedication"]{
+	blockquote[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
@@ -62,7 +56,7 @@ section > blockquote[epub|type~="dedication"] > *{
 	}
 
 	section[epub|type~="dedication"] > *,
-	section > blockquote[epub|type~="dedication"] > *{
+	blockquote[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
