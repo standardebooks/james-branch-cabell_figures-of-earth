@@ -90,10 +90,3 @@ footer{
 	text-align: right;
 }
 /* End All footers */
-
-/* Page breaks */
-#foreword header,
-section[epub|type~="part"]{
-	break-after: page;
-}
-/* End Page breaks */
