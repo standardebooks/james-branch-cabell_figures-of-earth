@@ -41,32 +41,33 @@
 		<meta property="term" refines="#subject-1">sh85047114</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85147124</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fantasy</meta>
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Young swineherd Manuel elevates to the rank of Count of Poictesme by following his own thinking and his own desires.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Figures of Earth&lt;/i&gt; is the second installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; collection &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; set in the imaginary province of Poictesme.&lt;/p&gt;
+			&lt;p&gt;Young Manuel is a simple, well-liked swineherd who is often seen continually reshaping a small figure he made from the marsh clay from the pool of Haranton. One day, a stranger appears and tells Manuel of an adventure to save the Count of Arnaye’s daughter from a wizard who carried her off to the gray mountain called Vraidex. Manuel accepts this adventure (and many more that follow), and his life will never be the same.&lt;/p&gt;
+			&lt;p&gt;The book was originally published in 1921 and was dedicated to “six most gallant champions,” each of whom were real persons who came to Cabell’s defense during the legal battle over alleged obscenity in his previous novel, &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11639</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/figuresofearthco00caberich</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Figures_of_Earth</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_figures-of-earth</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039689</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Giorgione</dc:contributor>
+		<meta property="file-as" refines="#artist">Giorgione</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Giorgione</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79029786</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
@@ -78,9 +79,9 @@
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Brad Taylor</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Taylor, Brad</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/btaylor8/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
