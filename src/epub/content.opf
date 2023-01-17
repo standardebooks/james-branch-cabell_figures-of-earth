@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/james-branch-cabell/figures-of-earth</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-01-17T23:46:44Z</dc:date>
+		<meta property="dcterms:modified">2023-01-17T23:46:44Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -46,17 +46,17 @@
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">A young swineherd elevates to the rank of Count by following his own thinking and his own desires.</dc:description>
+		<dc:description id="description">A young swineherd rises to the rank of Count by following his own thinking and desires.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Figures of Earth&lt;/i&gt; is the second installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; collection &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; set in the imaginary province of Poictesme.&lt;/p&gt;
-			&lt;p&gt;Young Manuel is a simple, well-liked swineherd who is often seen continually reshaping a small figure he made from the marsh clay from the pool of Haranton. One day, a stranger appears and tells Manuel of an adventure to save the Count of Arnaye’s daughter from a wizard who carried her off to the gray mountain called Vraidex. Manuel accepts this adventure (and many more that follow), and his life will never be the same.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Figures of Earth&lt;/i&gt; is the second installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;, set in the imaginary province of Poictesme.&lt;/p&gt;
+			&lt;p&gt;Young Manuel is a simple, well-liked swineherd who is often seen continually reshaping a small figure he made from the marsh clay from the pool of Haranton. One day, a stranger appears and tells Manuel of an adventure to save the Count of Arnaye’s daughter from a wizard who carried her off to the gray mountain called Vraidex. Manuel accepts this adventure (and many more that follow)—and his life will never be the same.&lt;/p&gt;
 			&lt;p&gt;The book was originally published in 1921 and was dedicated to “six most gallant champions,” each of whom were real persons who came to Cabell’s defense during the legal battle over alleged obscenity in his previous novel, &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11639</dc:source>
 		<dc:source>https://archive.org/details/figuresofearthco00caberich</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">74456</meta>
+		<meta property="se:reading-ease.flesch">64.95</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Figures_of_Earth</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_figures-of-earth</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
@@ -88,6 +88,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
