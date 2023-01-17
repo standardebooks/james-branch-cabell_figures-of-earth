@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* All asides */
-aside{
+div.aside{
 	font-style: italic;
 }
 /* End all asides */
@@ -64,7 +64,7 @@ blockquote[epub|type~="dedication"] > *{
 
 /* Explicit */
 #chapter-40 p:last-child{
-	display: block;
+	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: center;
 	text-indent: 0;
