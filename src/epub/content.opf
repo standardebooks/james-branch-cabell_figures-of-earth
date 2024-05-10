@@ -56,7 +56,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/11639</dc:source>
 		<dc:source>https://archive.org/details/figuresofearthco00caberich</dc:source>
 		<meta property="se:word-count">74455</meta>
-		<meta property="se:reading-ease.flesch">64.95</meta>
+		<meta property="se:reading-ease.flesch">65.25</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Figures_of_Earth</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_figures-of-earth</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
