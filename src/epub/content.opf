@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/james-branch-cabell/figures-of-earth</dc:identifier>
 		<dc:date>2023-01-17T23:46:44Z</dc:date>
@@ -48,12 +48,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">A young swineherd rises to the rank of Count by following his own thinking and desires.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young swineherd rises to the rank of Count by following his own thinking and desires.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Figures of Earth&lt;/i&gt; is the second installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;, set in the imaginary province of Poictesme.&lt;/p&gt;
 			&lt;p&gt;Young Manuel is a simple, well-liked swineherd who is often seen continually reshaping a small figure he made from the marsh clay from the pool of Haranton. One day, a stranger appears and tells Manuel of an adventure to save the Count of Arnaye’s daughter from a wizard who carried her off to the gray mountain called Vraidex. Manuel accepts this adventure (and many more that follow)—and his life will never be the same.&lt;/p&gt;
 			&lt;p&gt;The book was originally published in 1921 and was dedicated to “six most gallant champions,” each of whom were real persons who came to Cabell’s defense during the legal battle over alleged obscenity in his previous novel, &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11639</dc:source>
 		<dc:source>https://archive.org/details/figuresofearthco00caberich</dc:source>
